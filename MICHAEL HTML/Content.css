@@ -1,0 +1,21 @@
+h2 {
+  color: #fa05b6;
+  text-align: center;
+  font-family: impact;
+}
+
+h1 {
+  color: #fa05b6;
+  text-align: center;
+  font-family: impact;
+}
+
+p {
+	color: black;
+	font-family: verdana;
+	text-align: justify;
+}
+
+body {
+  background-color: #f5b8e4;
+}

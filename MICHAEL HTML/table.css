@@ -1,0 +1,9 @@
+body {
+  background-color: #fcace3;
+}
+
+table, th, td {
+  border:1px solid white; background-color: #f788e7; text-align: center;
+}
+table {
+	width: 100%;
