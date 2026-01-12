@@ -1,0 +1,21 @@
+body {
+  background-color: #FDACAC;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: impact;
+}
+  
+table, th, td {
+  border:1px solid white; background-color: #FFCDC9;width: 100%; text-align: center;
+}
+
+p {
+	color: white;
+	font-family: impact;
+}
+a {text-decoration: none;
+color:#FDACAC;
+font-family: arial;}

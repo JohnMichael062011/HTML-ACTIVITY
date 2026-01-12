@@ -1,0 +1,12 @@
+body {
+  background-color: #FFCDC9;
+}
+
+table, th, td {
+  border:1px solid white; background-color: #FFCDC9; text-align: center;
+}
+table {
+width: 100%;}
+a {text-decoration: none;
+color:#FDACAC;
+font-family: arial;}
