@@ -18,4 +18,9 @@ p {
 
 body {
   background-color: #f5b8e4;
+
+}
+
+a {
+	text-decoration: none;
 }
