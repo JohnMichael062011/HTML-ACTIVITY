@@ -3,10 +3,11 @@ body {
 }
 
 table, th, td {
-  border:1px solid white; background-color: #FFCDC9; text-align: center;
+  border:1px solid white; background-color: white; text-align: center;
 }
 table {
 width: 100%;}
 a {text-decoration: none;
 color:#FDACAC;
+
 font-family: arial;}
