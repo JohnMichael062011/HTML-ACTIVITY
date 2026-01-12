@@ -1,11 +1,11 @@
 h2 {
-  color: #fa05b6;
+  color: white;
   text-align: center;
   font-family: impact;
 }
 
 h1 {
-  color: #fa05b6;
+  color: white;
   text-align: center;
   font-family: impact;
 }
@@ -24,5 +24,6 @@ body {
 a {
 	text-decoration: none;
 }
+
 
 
