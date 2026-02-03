@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.pinimg.com/1200x/2e/ca/77/2eca7728913000c19843b7009753857b.jpg");
+   background-repeat: no-repeat; 
+    
+    background-size: cover;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("https://i.pinimg.com/736x/92/b2/97/92b29746f36e3476ab86fd50a196e722.jpg");
+   background-repeat: no-repeat; 
+    background-size: cover;
+  display: flex;
+  justify-content: center;
+  font-family: Tahoma;
+ 
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: 
+#f7e152
+;
+}
+
+.A { font-family: Brush Script MT;
+text-align: center; color: white;
+font-size: 50px;
+text-shadow: 0 0 3px #6e5b02, 0 0 3px #6e5b02;
+ }
+ 
+ .B { font-family: Tahoma;
+text-align: justify; color: white;
+ font-size: 13px; }
+.D { font-family: Tahoma;
+text-align: center; color: white;
+font-size: 13px; 
+ }
+ .DE {font-weight: bold; color: #edc511;}
+ 
+ .box {
+ background-image: url("https://i.pinimg.com/736x/6d/d9/c7/6dd9c7fed2ed5691725ee7165248b2d7.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 120px;
+  box-shadow: 5px 5px 5px gray;
+  border: 5px solid #f7e152;
+  padding: 20px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h5#content
+{ color: #917804; font-family: Tahoma; text-align: justify;}
+
+.vstyle {
+	display: block;
+	width: 200;
+	height: 100;
+	margin: 0 auto;
+	border: 5px solid #f7e152;
+}
+  
+ hr {width: 60%; height:5px;border-width:0;color:gray;background-color:#f7e152}
+ .rstyle {width: 60%; height:5px;border-width:0;color:gray;background-color: white}
+.p {
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10;
+  overflow: hidden;
+  background-color: #f7e152;
+  display: flex;
+  justify-content: center;
+  font-family: Tahoma;
+  width: 20%;
+  text-align:center;
+}
+
+ul li.p {
+  float: left;
+}
+
+ul li a.p {
+  display: block;
+  color: #f7e152;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: 
+#f7e152
+;
+}
+
+.imgstyle{
+	width: 200px;
+	height: 150px;
+	border: 3px solid #f7e152;
+	float: left;
+}
+.header {
+font-weight: bold; color: white;
+text-align: center; font-family: Tahoma;}
+
+.sec {
+	background-image: url("https://i.pinimg.com/736x/6d/d9/c7/6dd9c7fed2ed5691725ee7165248b2d7.jpg");
+  background-size: cover;
+  width: 700px;
+  height: 190px;
+  box-shadow: 5px 5px 5px gray;
+  border: 5px solid #f7e152;
+  padding: 50px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+.c {
+	font-family: Tahoma;
+text-align: center; color: white;
+font-size: 13px; }
+
+ul li a.active {
+  background-color:  #f7e152;
+  border-radius:10px;
+  border: 1px solid  #f7e152;
+}
+
+.column {
+  float: left;
+  width: 25.33%;
+  padding: 5px;
+  text-align: center;
+}
+
+}
+.row::after {
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+.Snow {border: 3px solid #f7e152;
+ display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px; 
+}
+.Snow:hover {
+  transform: scale(1.05); /* zoom effect */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.Z { font-family: Tahoma;
+text-align: justify; color: #916c06;
+ font-size: 13px;
+border-style: Groove;
+border-color:  #edc511; }
+
+.sticker {
+	display: block;margin-left: auto;
+margin-right: auto;}
+
+.third {
+	background-image: url("https://i.pinimg.com/736x/6d/d9/c7/6dd9c7fed2ed5691725ee7165248b2d7.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 5px;
+  box-shadow: 5px 5px 5px gray;
+  border: 5px solid #f7e152;
+  padding: 50px; 
+  margin-right: auto;
+margin-left: auto;}
+  
+  .O { font-family: Tahoma;
+text-align: center; color: white;
+ font-size: 20px; }
+.prof{border-radius: 50%;
+  width: 250px;  
+  height: 250px;
+  object-fit: cover; 
+border: 3px solid #f7e152;}
+
+.fourth {
+	background-image: url("https://i.pinimg.com/736x/6d/d9/c7/6dd9c7fed2ed5691725ee7165248b2d7.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 50px;
+  box-shadow: 5px 5px 5px gray;
+  border: 5px solid #f7e152;
+  padding: 100px; 
+  margin-right: auto;
+margin-left: auto;}
+
+p#footer{text-align: center;}
