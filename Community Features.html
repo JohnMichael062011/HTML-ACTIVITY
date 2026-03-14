@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 2;
+  padding: 0;
+}
+.s {color: #8b5fe3;}
+.k {height:8px; background-color: #8b5fe3}
+h1 {text-align: center; font-weight: bold; font-size: 40px;}
+}
+li::marker {
+  color: white;
+}
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: BLACK;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+   margin: 0 10px;
+}
+p{text-align: center;}
+.tagline{text-align: center; font-style: italic;}
+ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 5px;
+  background-color: #8b5fe3;
+  transition: width 0.3s ease;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+.container {background:red;
+color:white;
+padding:1px;
+text-align:center;
+font-weight:bold;
+}
+.z{text-align:justify; font-size: 20px; font-family: Arial;}
+div.scroll-container {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width:400px;
+  height: 300px;
+  border: 3px solid #7532a8;
+}
+.box{ background-color: transparent;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);width: 1300px;
+display: flex;
+justify-content: center;	
+padding: 3px;
+  height: 100px;}
+  .active{ color: #7532a8}
+  .row {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%; 
+  padding: 10px; 
+  border-right: 1px solid black
+}
+.column {
+  flex: 50%; 
+  padding: 10px; 
+  
+}
+h2{text-align: center; font-family: Arial;}
+.sub {text-align: center; font-family: Arial;}
+.content{text-align: justify; font-family: Arial;}
+.style{float: right; width:200px; height: 200px; margin: 5px; border: 2px solid black;}
+.style1{float: left; width:200px; height: 200px; margin: 5px; border: 2px solid black;}
+pre {font-family: Arial;}
+.c{border: none;}
+.box3{ border: 2px solid; width: 500px; height: 360px; background-color: transparent; padding: 5px;}
+</style>
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<h1>The <span class="s">JMC</span> News</h1>
+<p class="tagline">Your Voice. Your Community. Your News.</p>
+<p>March 14, 2026 | Edition 1 | Brgy. Sto. Nino, Marikina City</p>
+<br>
+
+<hr class="k">
+<hr>
+<ul>
+  <li><a href="PETA 4Q.html">Front Page</a></li>
+  <li><a href="Local News.html" >Local News</a></li>
+  <li><a href="Community Features.html"class="active">Community Features</a></li>
+  <li><a href="Opinion Page.html">Opinion Page</a></li>
+  <li><a href="Future.html">Future of Our Community</a></li>
+</ul>
+<hr>
+<hr class="k">
+<br>
+<h2> Community Features</h2>
+<hr>
+<div class="row">
+  <div class="column1">
+    <h2>TOP 5 COMMUNITY ISSUES</h2><br>
+  
+	
+	<p class="content"><pre>
+1. Flooding during heavy rains – Some areas in the barangay experience flooding because of 
+   its proximity to the Marikina River, especially during typhoon season. 
+   This affects transportation and the safety of residents.
+
+2. Traffic congestion – Busy streets and increasing vehicles cause delays for commuters,
+   especially during rush hours when people go to work or school.
+
+3. Waste management – Improper disposal of garbage and lack of segregation can 
+   lead to pollution and clogged drainage systems.
+
+4. Limited recreational spaces – Some residents feel there are not enough parks or open areas 
+   where families and youth can relax or exercise.
+
+5. Youth engagement – Many young people need more programs, activities,
+   and opportunities that help them develop their talents and leadership skills.
+	</pre></p>
+	</div>
+	
+  <div class="column">
+    <h2>Upcoming Local Events</h2>
+ <br>
+<p class="content"> Barangay Flag Raising Ceremony – Every Monday at the Barangay Hall</p>
+<br>
+<div class="box3"><h3> Did You Know?</h3><hr><br>
+<p class="content">Local Statistic:<br>
+Santo Niño is a barangay in the city of Marikina. Its population as determined by the 2020 Census was 28,849, which represents 6.33% of the total population of Marikina City.
+<br><br>
+Historical Fact:<br>
+Barangay Sto. Niño is one of the important communities in Marikina that contributes to the city's development and local programs for residents.
+<br><br>
+Fun Fact:<br>
+Sto. Niño Elementary School has been one of the key educational institutions in the community, helping shape the knowledge and values of many young residents.</p>
+</div>

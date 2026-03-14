@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 2;
+  padding: 0;
+}
+.s {color: #8b5fe3;}
+.k {height:8px; background-color: #8b5fe3}
+h1 {text-align: center; font-weight: bold; font-size: 40px;}
+}
+li::marker {
+  color: white;
+}
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: BLACK;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+   margin: 0 10px;
+}
+p{text-align: center;}
+.tagline{text-align: center; font-style: italic;}
+ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 5px;
+  background-color: #8b5fe3;
+  transition: width 0.3s ease;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+.container {background:red;
+color:white;
+padding:1px;
+text-align:center;
+font-weight:bold;
+}
+.z{text-align:justify; font-size: 20px; font-family: Arial;}
+div.scroll-container {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width:400px;
+  height: 300px;
+  border: 3px solid #7532a8;
+}
+.box{ background-color: transparent;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);width: 1300px;
+display: flex;
+justify-content: center;	
+padding: 3px;
+  height: 100px;}
+  .active{ color: #7532a8}
+  .row {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%; 
+  padding: 10px; 
+  border-right: 1px solid black
+}
+.column {
+  flex: 50%; 
+  padding: 10px; 
+  
+}
+h2{text-align: center; font-family: Arial;}
+.sub {text-align: center; font-family: Arial;}
+.content{text-align: justify; font-family: Arial;}
+.style{float: right; width:200px; height: 200px; margin: 5px; border: 2px solid black;}
+.style1{float: left; width:200px; height: 200px; margin: 5px; border: 2px solid black;}
+pre {font-family: Arial;}
+.c{border: none;}
+.box3{ border: 2px solid; width: 500px; height: 360px; background-color: transparent; padding: 5px;}
+</style>
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<h1>The <span class="s">JMC</span> News</h1>
+<p class="tagline">Your Voice. Your Community. Your News.</p>
+<p>March 14, 2026 | Edition 1 | Brgy. Sto. Nino, Marikina City</p>
+<br>
+
+<hr class="k">
+<hr>
+<ul>
+  <li><a href="PETA 4Q.html">Front Page</a></li>
+  <li><a href="Local News.html" >Local News</a></li>
+  <li><a href="Community Features.html">Community Features</a></li>
+  <li><a href="Opinion Page.html">Opinion Page</a></li>
+  <li><a href="Future.html"class="active">Future of Our Community</a></li>
+</ul>
+<hr>
+<hr class="k">
+<br>
+<h2>Future of Sto. Niño</h2>
+<hr>
+<div class="row">
+  <div class="column1">
+    <h2>Our Community in 2035</h2><br>
+  <br>
+  <hr>
+	
+	<p class="content">By the year 2035, Barangay Sto. Niño could become a more modern and technology-driven community. Schools may have smart classrooms equipped with digital boards, tablets, and fast internet connections that allow students to learn through interactive lessons and online resources. These improvements could help students develop stronger skills for the future.</p>
+	</div>
+	
+  <div class="column">
+    
+ <br>
+<p class="content"> Transportation in the community may also improve with safer roads and more efficient public transport systems. Electric jeepneys and bike lanes could reduce traffic and pollution, making it easier and faster for residents to travel around the city.
+
+In the future, the barangay could also provide more youth programs and digital government services. Young residents may have access to leadership training, sports programs, and technology workshops that help them develop their talents. At the same time, barangay services such as permits, requests, and announcements could be done online, making government services faster and more convenient for everyone.</p>
+<br>
+
+</div>

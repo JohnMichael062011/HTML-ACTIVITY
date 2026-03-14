@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 2;
+  padding: 0;
+}
+.s {color: #8b5fe3;}
+.k {height:8px; background-color: #8b5fe3}
+h1 {text-align: center; font-weight: bold; font-size: 40px;}
+}
+li::marker {
+  color: white;
+}
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: BLACK;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+   margin: 0 10px;
+}
+p{text-align: center;}
+.tagline{text-align: center; font-style: italic;}
+ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 5px;
+  background-color: #8b5fe3;
+  transition: width 0.3s ease;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+.container {background:red;
+color:white;
+padding:1px;
+text-align:center;
+font-weight:bold;
+}
+.z{text-align:justify; font-size: 20px; font-family: Arial;}
+div.scroll-container {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width:400px;
+  height: 300px;
+  border: 3px solid #7532a8;
+}
+.box{ background-color: transparent;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);width: 1300px;
+display: flex;
+justify-content: center;	
+padding: 3px;
+  height: 100px;}
+  .active{ color: #7532a8}
+  .row {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%; 
+  padding: 10px; 
+  border-right: 1px solid black
+}
+.column {
+  flex: 50%; 
+  padding: 10px; 
+  
+}
+h2{text-align: center; font-family: Arial;}
+.sub {text-align: center; font-family: Arial;}
+.content{text-align: justify; font-family: Arial;}
+.style{float: right; width:200px; height: 200px; margin: 5px; border: 2px solid black;}
+.style1{float: left; width:200px; height: 200px; margin: 5px; border: 2px solid black;}
+pre {font-family: Arial;}
+.c{border: none;}
+.box3{ border: 2px solid; width: 500px; height: 360px; background-color: transparent; padding: 5px;}
+</style>
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<h1>The <span class="s">JMC</span> News</h1>
+<p class="tagline">Your Voice. Your Community. Your News.</p>
+<p>March 14, 2026 | Edition 1 | Brgy. Sto. Nino, Marikina City</p>
+<br>
+
+<hr class="k">
+<hr>
+<ul>
+  <li><a href="PETA 4Q.html">Front Page</a></li>
+  <li><a href="Local News.html" >Local News</a></li>
+  <li><a href="Community Features.html">Community Features</a></li>
+  <li><a href="Opinion Page.html"class="active">Opinion Page</a></li>
+  <li><a href="Future.html">Future of Our Community</a></li>
+</ul>
+<hr>
+<hr class="k">
+<br>
+<h2>Opinion</h2>
+<hr>
+<div class="row">
+  <div class="column1">
+    <h2>Working Together for a Better Sto. Niño Community</h2><br>
+  <br>
+  <hr>
+	
+	<p class="content">Barangay Sto. Niño continues to grow as a vibrant community, but like many urban areas, it still faces challenges that need attention. One issue that stands out is proper waste management and maintaining cleanliness in public spaces.
+	A clean environment not only improves the appearance of the community but also protects the health of its residents.</p>
+	</div>
+	
+  <div class="column">
+    
+ <br>
+<p class="content"> Many problems such as clogged drainage systems and flooding are often caused by improper waste disposal. When residents throw garbage in the wrong places, it can block waterways and create environmental hazards. Educating people about proper waste segregation and encouraging community participation can greatly improve the situation.
+
+To address this issue, the barangay can strengthen information campaigns and encourage residents to join clean-up drives. Schools and community organizations can also play a role in promoting environmental awareness among the youth. By working together and being responsible citizens, everyone can help build a cleaner, safer, and more progressive Sto. Niño community.</p>
+<br>
+
+</div>
